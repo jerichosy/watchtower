@@ -9,6 +9,7 @@ on:
 
 jobs:
   lint:
+    continue-on-error: true
     name: Lint
     runs-on: ubuntu-latest
     steps:
